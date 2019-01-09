@@ -17,8 +17,8 @@ This dataset contains 533 nonregistered  Multispectral Images (MSI) with its res
 evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organized as follow:
 
 #### Last OMSIV update
-The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV  click in ([Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing)) just 500 images will be found.
-
+The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV ([Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing)) just 500 images will be found.
+After the uncompression of omsiv.tar, you will find 4 folder [h5, raw, registered, restorations]. In the h5 folder you will find the images data in .h5 file, On the other hand, the raw folder has the same images as h5 but with .raw extension. The registered folder has 500 RGB and 500 respective RGB-NIR images. Those images are grouped in train and test folders. The train folder contains 400 images for the color correction using Deep Learning (DL) described in this [repo](https://github.com/xavysp/color_restorer). The remainder images are saved in the test folder for the  DL model testing.
 
 <!-- Start of Simple-Counter Code -->
 <a href="http://www.simple-counter.com/" target="_blank"><img src="http://www.simple-counter.com/hit.php?id=zrvfdff&nd=8&nc=3&bc=1" border="0" alt="Hit Counter"></a>
