@@ -19,5 +19,6 @@ evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organiz
 #### Last OMSIV update
 The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization turn to  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use [updated OMSIV](https://drive.google.com/open?id=0B0givAGTBMIwUDJYejhsUFV0RVU) just 500 images will be found.
 
- <a href='http://www.freevisitorcounters.com'>Get Visitor Counters</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=f0a46ced0d74a954da7d6d3959f11c0fb7d1c819'></script>
-<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/470519/t/3"></script>
+<!-- Start of Simple-Counter Code -->
+<a href="http://www.simple-counter.com/" target="_blank"><img src="http://www.simple-counter.com/hit.php?id=zmufdfa&nd=8&nc=4&bc=1" border="0" alt="Hit Counter"></a>
+<!-- End of Simple-Counter Code -->
