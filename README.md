@@ -17,7 +17,7 @@ This dataset contains 533 nonregistered  Multispectral Images (MSI) with its res
 evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organized as follow:
 
 #### Last OMSIV update
-The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV  click in[Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing) just 500 images will be found.
+The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV  click in ([Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing)) just 500 images will be found.
 
 
 <!-- Start of Simple-Counter Code -->
