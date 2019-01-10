@@ -12,7 +12,7 @@ correctly registered as indicated [in the paper](http://www.cvc.uab.es/~asappa/p
 Attempting to save as much as possible the whole of multispectral bands information, 
 the SSMID datasets are packaged in a Matlab .mat file.
 
-### 1.- Outdoor Multispectral Images with Vegetation (OMSIV) (OLD)
+### 1.- [OLD] Outdoor Multispectral Images with Vegetation (OMSIV)
 This dataset contains 533 nonregistered  Multispectral Images (MSI) with its respective ground truth for 
 evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organized as follow:
     
@@ -22,8 +22,11 @@ evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organiz
     ---------------------------------------------------------------------------------
     There are 533 rows. The data type of each columns is double if it is not specified
 
+```diff
+Last OMSIV update
+```
+#### New OMSIV but with the same data
 
-#### Last OMSIV update
 <div align='justify'>
 The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV ([Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing)) just 500 images will be found.
 The omsiv.tar uncompressed file has 4 folders [h5, raw, registered, restorations]. In the h5 folder you will find the images data in .h5, on the other hand, the raw folder has the same images as h5 but with .raw extension. The registered folder has 500 RGB and 500 respective RGB-NIR images. Those images are grouped in train and test folders. The train folder contains 400 images for the color correction using Deep Learning (DL) described in this [repo](https://github.com/xavysp/color_restorer). The remainder images are saved in the test folder for the  DL model testing. (**check below for more details**)
