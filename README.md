@@ -26,6 +26,28 @@ evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organiz
 #### Last OMSIV update
 The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV ([Download OMSIV](https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing)) just 500 images will be found.
 After the uncompression of omsiv.tar, you will find 4 folder [h5, raw, registered, restorations]. In the h5 folder you will find the images data in .h5 file, On the other hand, the raw folder has the same images as h5 but with .raw extension. The registered folder has 500 RGB and 500 respective RGB-NIR images. Those images are grouped in train and test folders. The train folder contains 400 images for the color correction using Deep Learning (DL) described in this [repo](https://github.com/xavysp/color_restorer). The remainder images are saved in the test folder for the  DL model testing.
+***omsiv folder details***
+
+    omsiv
+    '-> h5                                  [RGB size=(360,640,3), RGBN size=(360,640,4)]
+        '-> rgb (532 RGB raw images)
+        '-> rgbn (532 RGB-NIR raw images)
+    '-> raw                                 [RGB size=(720,1280), RGBN size=(720,1280)]
+        '-> rgb (532 RGB raw images)
+        '-> rgbn (532 RGB-NIR raw images)
+    '-> registered                          [RGB size=(320,580,3), RGBN size=(320,580,4)]
+        '-> rgbr (500 registered RGB raw images)
+        '-> rgbnc (500 cutted RGB-NIR raw images)
+    '-> restorations                        [RGB size=(320,580,3), RGBN size=(320,580,4)]
+        '-> train
+            '-> X (400 RGB-NIR corrupted images)
+            '-> Y (400 RGB target images)
+            '-> train_list.txt  (path list of 400 images :: X/RGBNC_001.h5 Y/RGBR_001.h5...)
+        '-> test
+            '-> X (100 RGB-NIR corrupted images)
+            '-> Y (100 RGB target images)
+            '-> Yhat (100 ~RGB images predicted by color_restorer:https://github.com/xavysp/color_restorer)
+            '-> test_list.txt  (path list of 400 images :: X/RGBNC_001.h5 Y/RGBR_001.h5...)
 
 ### 2.- Outdoor Multispectral Images with no Vegetation (OMSINV)
 
