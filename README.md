@@ -23,7 +23,7 @@ evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organiz
     There are 533 rows. The data type of each columns is double if it is not specified
 
 ```diff
-Last OMSIV update
+- Last OMSIV update
 ```
 #### New OMSIV but with the same data
 
