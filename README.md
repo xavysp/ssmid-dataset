@@ -30,7 +30,7 @@ evaluation training stage). OMSIV.mat is a struct Matlab variable, it is organiz
 
 <div align='justify'>
 The former OMSIV version had 533 pair of images (visible and multispectral). The new actualization have  532 raw images, of that only 500 have remained after the "Registration" process. Therefore, if you are going to use the updated OMSIV <a href="https://drive.google.com/file/d/1KDi-JJLgMeM6iVN6WXbsAxSzL-_6lIJv/view?usp=sharing">(Download OMSIV)</a> just 500 images will be found.
-The omsiv.tar uncompressed file has 4 folders [h5, raw, registered, restorations]. In the h5 folder you will find the images data in .h5, on the other hand, the raw folder has the same images as h5 but with .raw extension. The registered folder has 500 RGB and 500 respective RGB-NIR images. Those images are grouped in train and test folders. The train folder contains 400 images for the color correction using Deep Learning (DL) described in this [repo](https://github.com/xavysp/color_restorer). The remainder images are saved in the test folder for the  DL model testing. (**check below for more details**)
+The omsiv.tar uncompressed file has 4 folders [h5, raw, registered, restorations]. In the h5 folder you will find the images data in .h5, on the other hand, the raw folder has the same images as h5 but with .raw extension. The registered folder has 500 RGB and 500 respective RGB-NIR images. Those images are grouped in train and test folders. The train folder contains 400 images for the color correction using Deep Learning (DL) described in this <a href="https://github.com/xavysp/color_restorer">repo</a>. The remainder images are saved in the test folder for the  DL model testing. (**check below for more details**)
     </div>
 
 ***omsiv folder details***
