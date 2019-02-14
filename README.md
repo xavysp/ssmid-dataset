@@ -58,6 +58,17 @@ The omsiv.tar uncompressed file has 4 folders [h5, raw, registered, restorations
                 '-> X/RGBNC_001.h5 Y/RGBR_001.h5
                 '-> .
                 '-> .. till 100
+                
+    omsiv4colorization
+    '->train
+        '-> X (400 RGB-NIR corrupted images)
+        '-> Y (400 RGB target images)
+    '-> test
+        '-> X (100 RGB-NIR corrupted images)
+        '-> Y (100 RGB target images)
+    '-> train_list.lst  (path list of 400 images :: train/X/RGBR_001.jpg train/Y/NIR_001.png...)
+    '-> test_list.lst  (path list of 100 images :: test/X/RGBR_002.jpg test/Y/NIR_002.png...)
+        
 
 ### 2.- Outdoor Multispectral Images with no Vegetation (OMSINV)
 
